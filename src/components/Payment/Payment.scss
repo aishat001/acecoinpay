@@ -24,5 +24,11 @@
     .payment {
         flex-direction: column-reverse !important;
     }
+    .button {
+        display: none !important;
+    }
+    .button2 {
+        display: flex !important;
+    }
 }
 
