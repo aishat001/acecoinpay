@@ -1,5 +1,4 @@
 import React, { useRef, useState } from 'react';
-import Card from 'react-credit-cards';
 import {
     formatCVC,
     formatExpirationDate,
