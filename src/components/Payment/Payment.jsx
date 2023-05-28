@@ -6,8 +6,6 @@ import {
 } from '../utils';
 
 import './Payment.scss';
-
-import 'react-credit-cards/es/styles-compiled.css';
 import CreditCard from '../CreditCard/CreditCard';
 import Header from '../Header/Header';
 
