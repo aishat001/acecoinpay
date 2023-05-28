@@ -1,0 +1,28 @@
+.wrapper {
+        aspect-ratio:1.5;
+        background:
+          radial-gradient(circle 0px at top    left ,#0000 98%, #ecf0f3  ) top    left,
+          radial-gradient(circle 0px at top    right,#0000 98%, #ecf0f3 ) top    right,
+          radial-gradient(circle 20px at bottom left ,#0000 98%, #ecf0f3) bottom left,
+          radial-gradient(circle 20px at bottom right,#0000 98%, #ecf0f3) bottom right;
+        background-size:51% 51%;
+        background-repeat:no-repeat;
+      
+}
+.checkout_bottom {
+    // aspect-ratio:1.5;
+    background:
+      radial-gradient(circle 20px at top    left ,#0000 98%, #ecf0f3  ) top    left,
+      radial-gradient(circle 20px at top    right,#0000 98%, #ecf0f3 ) top    right,
+      radial-gradient(circle 0px at bottom left ,#0000 98%, #ecf0f3) bottom left,
+      radial-gradient(circle 0px at bottom right,#0000 98%, #ecf0f3) bottom right;
+    background-size:51% 51%;
+    background-repeat:no-repeat;
+}
+
+@media (max-width : 830px) {
+    .payment {
+        flex-direction: column-reverse !important;
+    }
+}
+
